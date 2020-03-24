@@ -1,0 +1,63 @@
+html {
+	outline: none;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	height: 200px;
+	text-align: center;
+	width: 100%;
+	border-bottom: none;
+	background-color: lightyellow; 
+}
+
+nav {
+	width: 100%;
+	background-color: lightgreen;
+	height: 40px;
+}
+
+h1 {
+	padding-top: 70px;
+	margin: 0px;
+}
+
+option {
+	display: block;
+	padding-top: 10px;
+	color: black;
+	transition: 0.4s;
+}
+
+#divgeral {
+	height: 100%;
+	width: 100%;
+}
+
+#Menu {
+	display: flex;
+	flex-direction: row;
+	padding: 0px;
+	margin: 0px;
+}
+
+.MenuOpcao {
+	flex-grow: 4;
+	text-align: center;
+	display: inline;
+	height: 40px;
+	flex-flow: 1;
+}
+
+.MenuOpcao:hover {
+	background-color: green;
+	cursor: pointer;
+}
+
+.MenuOpcao:active {
+	background-color: darkgreen;
+}
