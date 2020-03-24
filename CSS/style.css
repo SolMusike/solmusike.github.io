@@ -1,0 +1,167 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+object {
+	width: 73%;
+	padding-top: 10px;
+	margin-left: 10px;
+	height: 1000px;
+}
+
+header{
+	height: 200px;
+	text-align: center;
+	width: 100%;
+	border-bottom: none;
+}
+
+nav {
+	width: 100%;
+	background-color: #ff8080;
+	height: 40px;
+}
+
+footer {
+	height: 222px;
+	width: 100%;
+	border-bottom: none;
+	background-color: #e6e6e6;
+}
+
+h1 {
+	padding-top: 70px;
+	margin: 0px;
+}
+
+h2 {
+	margin: 0px;
+}
+
+h3 {
+	padding-left: 20px;
+	display: inline;
+}
+
+option {
+	display: block;
+	padding-top: 10px;
+	color: #330014;
+	font-weight: 700;
+	font-size: 17px;
+}
+
+#divgeral {
+	height: 100%;
+	width: 100%;
+}
+
+#divposts {
+	width: 98%;
+	display: grid;
+	grid-template-columns: 460px 460px;
+	grid-template-rows: 450px 450px;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	padding-top: 10px;
+}
+
+#divlinks {
+	display: grid;
+	grid-template-columns: 60px 60px;
+	grid-column-gap: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+#imglogo {
+	height: 200px;
+}
+
+#Menu {
+	display: flex;
+	flex-direction: row;
+	padding: 0px;
+	margin: 0px;
+}
+
+.MenuOpcao {
+	flex-grow: 4;
+	text-align: center;
+	display: inline;
+	height: 40px;
+	flex-flow: 1;
+	transition: 0.4s;
+}
+
+.MenuOpcao:hover {
+	background-color: #ff4d4d;
+	cursor: pointer;
+}
+
+.MenuOpcao:active {
+	background-color: #ff1a1a;
+}
+
+.Titulo {
+	height: 50px;
+	width: 98%;
+	text-align: center;
+	border: 2px solid #ff80aa;
+	background-color: #ffe6ee;
+	color: #660029;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.TextTitulo {
+	padding-top: 8px;
+}
+
+.post {
+	width: 460px;
+	height: 450px;
+	transition: 0.5s;
+	border-radius: 15px 0px 15px 0px;
+}
+
+.post:hover {
+	background-color: #ffe6e6;
+}
+
+.video {
+	width: 420px;
+	height: 250px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.TituloPost {
+	padding-top: 20px;
+	text-align: center;
+	color: #660029;
+}
+
+.divpostext {
+	width: 400px;
+	height: 123px;
+	padding-left: 20px;
+}
+
+.TextPost {
+	text-align: justify;
+	color: #660000;
+	font-size: 17px;
+}
+
+.textfooter {
+	font-size: 17px;
+}
+
+.imglink {
+	width: 60px;
+}
+
+.imglink:hover {
+	cursor: pointer;
+}
